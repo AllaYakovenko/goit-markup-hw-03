@@ -291,16 +291,19 @@ p {
     margin-right: 0;
 }
 
-.team-element .section-team,
-.team-element .section-subtitle{
+.team-card .section-team,
+.team-card .section-subtitle{
     text-align: center;
 
 }
 
-.team-element .card,
-.team-element .section-subtitle {
-    margin-bottom: 30px;
+.team-card .section-subtitle{
+    margin-bottom: 0;
+}
 
+.team-card{
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .team-element{
@@ -320,8 +323,6 @@ background-color: var(--primary-background);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
-
-    margin-bottom: 30px;
 }
 
 .galary-element .section-title{
